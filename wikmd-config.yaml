@@ -1,0 +1,18 @@
+# wikmd configuration file
+
+wikmd_host: "0.0.0.0"
+wikmd_port: 5501
+wikmd_logging: 1
+wikmd_logging_file: "wikmd.log"
+
+git_user: "wikmd"
+git_email: "rhyneer.silas@gmail.com"
+
+main_branch_name: "main"
+sync_with_remote: 0
+remote_url: ""
+
+wiki_directory: "wiki"
+images_route: "img"
+homepage: "Homepage.md"
+homepage_title: "Homepage"
