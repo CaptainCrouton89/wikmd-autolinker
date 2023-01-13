@@ -16,7 +16,8 @@ blockquote {
     border-left: 4px solid var(--quotes-color);
 }
 
-code, pre {
+code,
+pre {
     font-family: monospace;
     font-size: 14px
 }
@@ -25,6 +26,18 @@ pre {
     background-color: var(--bg-codeblock-light);
     padding: 6px;
     border-radius: 6px;
+}
+
+p,
+.h3,
+.h4,
+.h5,
+.h6,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
 }
 
 img {
